@@ -26,8 +26,6 @@ const NavBar = () => {
             <NavButton name={ isPolish ? "projekty" : "projects"}/>
             <LanguageButton name="Language" />
             <DarkModeButton name="DARK" icon1={faMoon} icon2={faSun} />
-
-            
         </nav>
     )
 }

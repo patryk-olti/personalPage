@@ -2,6 +2,8 @@
 import AppProvider from './AppContext';
 import DivNavBar from './containers/DivNavBar';
 
+import About from './pages/About';
+
 import './styles/App.css';
 
 function App() {
@@ -9,7 +11,7 @@ function App() {
     <AppProvider>
       <div className="App">
         <DivNavBar />
-        elo
+        <About />
       </div>
     </AppProvider>
   );

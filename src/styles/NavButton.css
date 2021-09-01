@@ -1,11 +1,13 @@
 div.navDiv{
+    width: 130px;
     border-right: 1px solid rgb(138, 138, 138);
 }
 
 button.navButton{
-    padding: 5px 10px;
+    padding: 5px 5px;
 
     font-size: 20px;
+    letter-spacing: 0px;
 
     background-color: white;
     border: none;

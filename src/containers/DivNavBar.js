@@ -9,6 +9,8 @@ const DivNavBar = () => {
         display: 'flex',
         justifyContent: "space-between",
         width: "100%",
+        position: "fixed",
+        backgroundColor: "white",
         borderBottom: "1px solid gray"
         },
         logo: {
@@ -16,7 +18,7 @@ const DivNavBar = () => {
             paddingRight: "5px",
             fontSize: "20px",
             letterSpacing: "3px",
-            borderRight: "7px solid gray"
+            borderRight: "7px solid rgb(0, 108, 180)"
         }
     }
 

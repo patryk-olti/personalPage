@@ -1,0 +1,43 @@
+div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div.container__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    height: 50%;
+}
+
+div.article{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+
+div.article span{
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+div.divImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+div.divImage .image{
+    width: 400px;
+    height: 400px;
+
+    object-fit: cover;
+
+    border-radius: 100%;
+    border: 5px solid rgb(0, 108, 180);
+}
