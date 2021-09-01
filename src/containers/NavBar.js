@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { AppContext } from '../AppContext';
+
 import { faMoon } from '@fortawesome/free-solid-svg-icons';
 import { faSun } from '@fortawesome/free-solid-svg-icons';
 
 import NavButton from '../components/NavButton';
-import ContextButton from '../components/ContextButton';
+import LanguageButton from '../components/LanguageButton';
+import DarkModeButton from '../components/DarkModeButton';
 
 const NavBar = () => {
+
+    const { isPolish } = useContext( AppContext );
 
     const styles = {
         display: "flex",
@@ -16,12 +20,12 @@ const NavBar = () => {
 
     return(
         <nav style={styles}>
-            <NavButton name="o mnie"/>
-            <NavButton name="umiejętności"/>
-            <NavButton name="edukacja"/>
-            <NavButton name="portfolio"/>
-            <ContextButton name="ENG" txt="ENG" />
-            <ContextButton name="DARK" icon1={faMoon} />
+            <NavButton name={ isPolish ? "o mnie" : "about"}/>
+            <NavButton name={ isPolish ? "umiejętności" : "skills"}/>
+            <NavButton name={ isPolish ? "edukacja" : "education"}/>
+            <NavButton name={ isPolish ? "projekty" : "projects"}/>
+            <LanguageButton name="Language" />
+            <DarkModeButton name="DARK" icon1={faMoon} icon2={faSun} />
 
             
         </nav>
