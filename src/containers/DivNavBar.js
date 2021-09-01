@@ -1,17 +1,31 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
+import { AppContext } from '../AppContext';
 
 import NavBar from './NavBar';
 
 const DivNavBar = () => {
 
+    const { isDark } = useContext(AppContext);
+
     const styles = {
-        div: {
-        display: 'flex',
-        justifyContent: "space-between",
-        width: "100%",
-        position: "fixed",
-        backgroundColor: "white",
-        borderBottom: "1px solid gray"
+        lightMode: {
+            display: 'flex',
+            justifyContent: "space-between",
+            width: "100%",
+            position: "fixed",
+            borderBottom: "1px solid gray",
+            backgroundColor: "rgb(186, 204, 228)",
+            color: "black",
+        },
+        darkMode: {
+            display: 'flex',
+            justifyContent: "space-between",
+            width: "100%",
+            position: "fixed",
+            borderBottom: "1px solid gray",
+            backgroundColor: "rgb(1, 29, 65)",
+            color: "white"
         },
         logo: {
             margin: "10px",
@@ -23,7 +37,7 @@ const DivNavBar = () => {
     }
 
     return(
-        <div style={styles.div}>
+        <div style={isDark ? styles.darkMode : styles.lightMode}>
             <div style={styles.logo}>Patryk</div>
             <NavBar />
         </div>

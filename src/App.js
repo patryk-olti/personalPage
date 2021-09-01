@@ -1,19 +1,22 @@
+import React, { useContext } from 'react';
 
-import AppProvider from './AppContext';
+import { AppContext } from './AppContext';
+
 import DivNavBar from './containers/DivNavBar';
-
 import About from './pages/About';
 
 import './styles/App.css';
 
-function App() {
+const App = () => {
+
+  const { isDark } = useContext( AppContext );
+  const mode = isDark ? "App darkMode" : "App lightMode";
+
   return (
-    <AppProvider>
-      <div className="App">
+      <div className={ mode } >
         <DivNavBar />
         <About />
       </div>
-    </AppProvider>
   );
 }
 

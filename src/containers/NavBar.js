@@ -20,7 +20,7 @@ const NavBar = () => {
 
     return(
         <nav style={styles}>
-            <NavButton name={ isPolish ? "o mnie" : "about"}/>
+            <NavButton name={ isPolish ? "o mnie" : "about me"}/>
             <NavButton name={ isPolish ? "umiejętności" : "skills"}/>
             <NavButton name={ isPolish ? "edukacja" : "education"}/>
             <NavButton name={ isPolish ? "projekty" : "projects"}/>

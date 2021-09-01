@@ -19,7 +19,7 @@ const About = () => {
             <div className="container__content">
                 <div className="article"><span> {isPolish ? polishAbout : englishAbout} </span></div>
                 <div className="divImage">
-                     <img src={ patrykImg } className="image"/> 
+                     <img src={ patrykImg } className="image" alt="img" /> 
                     
                 </div>
             </div>

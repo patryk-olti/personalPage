@@ -1,6 +1,7 @@
 div.navDiv{
     width: 130px;
     border-right: 1px solid rgb(138, 138, 138);
+
 }
 
 button.navButton{
@@ -9,12 +10,20 @@ button.navButton{
     font-size: 20px;
     letter-spacing: 0px;
 
-    background-color: white;
+    background-color: transparent;
     border: none;
-    transition: 0.5s;
+    transition: 0.5s transform;
 }
 
 button.navButton:hover{
     cursor: pointer;
     transform: translate(2px);
+}
+
+.lightMode{
+    color: "black";
+}
+
+.darkMode{
+    color: white;
 }

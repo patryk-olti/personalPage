@@ -10,7 +10,7 @@ const ContextButton = ({ name, icon1, icon2 }) => {
 
     const { isDark, toggleIsDark } = useContext(AppContext);
 
-    const icon = isDark ? <FontAwesomeIcon icon={ icon1 } /> : <FontAwesomeIcon icon={ icon2 } />;
+    const icon = isDark ? <FontAwesomeIcon icon={ icon2 } /> : <FontAwesomeIcon icon={ icon1 } />;
     
     return(
         <div className="basicButton" onClick={ toggleIsDark } >
