@@ -1,0 +1,31 @@
+.ProgressBar__container{
+    display: flex;
+    justify-content: space-around;
+
+    width: 500px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.ProgressBar__icon{
+    height: 30px;
+}
+
+.ProgressBar__emptyBar{
+    width: 400px;
+    height: 25px;
+
+    border-radius: 20px;
+    border: 2px solid rgb(87, 87, 87);
+    background-color: rgb(194, 176, 176);
+}
+
+.ProgressBar__done{
+    height: 100%;
+
+    font-weight: 700;
+    color: black;
+
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgb(253, 234, 59) 25%, rgb(58, 255, 78) 85%);
+}

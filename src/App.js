@@ -4,6 +4,7 @@ import { AppContext } from './AppContext';
 
 import DivNavBar from './containers/DivNavBar';
 import About from './pages/About';
+import Skills from './pages/Skills';
 
 import './styles/App.css';
 
@@ -16,6 +17,7 @@ const App = () => {
       <div className={ mode } >
         <DivNavBar />
         <About />
+        <Skills />
       </div>
   );
 }
