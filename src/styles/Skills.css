@@ -1,3 +1,19 @@
+.skillsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.skillsTitle{
+    margin-bottom: 50px;
+}
+
+.skillsTitle span{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
 .skills{
     display: flex;
     flex-direction: column;

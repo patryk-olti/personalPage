@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
+
+import { AppContext } from '../AppContext';
 
 import ProgressBar from '../components/ProgressBar';
 
@@ -13,15 +15,21 @@ import '../styles/Skills.css';
 
 const Skills = () => {
 
+    const { isPolish } = useContext( AppContext );
+
     return(
-        <div className="skills">
-            <ProgressBar progress="50" icon={html5} />
-            <ProgressBar progress="80" icon={css3} />
-            <ProgressBar progress="80" icon={js} />
-            <ProgressBar progress="60" icon={react} />
-            <ProgressBar progress="20" icon={node} />
-            <ProgressBar progress="25" icon={github} />
+        <div className="skillsContainer">
+            <div className="skillsTitle"><span>{isPolish ? 'Umiejętności' : 'Skills' }</span></div>
+            <div className="skills">
+                <ProgressBar progress="50" icon={html5} />
+                <ProgressBar progress="80" icon={css3} />
+                <ProgressBar progress="80" icon={js} />
+                <ProgressBar progress="60" icon={react} />
+                <ProgressBar progress="20" icon={node} />
+                <ProgressBar progress="25" icon={github} />
+            </div>
         </div>
+        
     )
 }
 
