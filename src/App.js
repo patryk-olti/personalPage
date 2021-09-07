@@ -5,6 +5,7 @@ import { AppContext } from './AppContext';
 import DivNavBar from './containers/DivNavBar';
 import About from './pages/About';
 import Skills from './pages/Skills';
+import Education from './pages/Education';
 
 import './styles/App.css';
 
@@ -18,6 +19,7 @@ const App = () => {
         <DivNavBar />
         <About />
         <Skills />
+        <Education />
       </div>
   );
 }
