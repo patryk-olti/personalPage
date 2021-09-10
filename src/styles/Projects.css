@@ -1,0 +1,24 @@
+.containerProjects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    border: 1px solid black;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 75%;
+    width: 80%;
+
+    border: 1px solid black;
+}
+
+.slideTitle{
+    font-size: 20px;
+}
