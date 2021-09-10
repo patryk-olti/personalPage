@@ -20,7 +20,7 @@ const Education = () => {
     }
 
     return(
-        <div style={styles.containerEducation}>
+        <div style={styles.containerEducation} id="education">
             <span style={styles.spanTitle}>Edukacja</span>
             <EducationContainer />
         </div>

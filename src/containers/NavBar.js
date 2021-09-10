@@ -20,9 +20,9 @@ const NavBar = () => {
 
     return(
         <nav style={styles}>
-            <NavButton name={ isPolish ? "o mnie" : "about me"}/>
-            <NavButton name={ isPolish ? "umiejętności" : "skills"}/>
-            <NavButton name={ isPolish ? "edukacja" : "education"}/>
+            <NavButton name={ isPolish ? "o mnie" : "about me"} scrollTarget='about'/>
+            <NavButton name={ isPolish ? "umiejętności" : "skills"} scrollTarget='skills'/>
+            <NavButton name={ isPolish ? "edukacja" : "education"} scrollTarget='education'/>
             <NavButton name={ isPolish ? "projekty" : "projects"}/>
             <LanguageButton name="Language" />
             <DarkModeButton name="DARK" icon1={faMoon} icon2={faSun} />

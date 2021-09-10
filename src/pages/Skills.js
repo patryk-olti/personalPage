@@ -18,7 +18,7 @@ const Skills = () => {
     const { isPolish } = useContext( AppContext );
 
     return(
-        <div className="skillsContainer">
+        <div className="skillsContainer" id="skills">
             <div className="skillsTitle"><span>{isPolish ? 'Umiejętności' : 'Skills' }</span></div>
             <div className="skills">
                 <ProgressBar progress="50" icon={html5} />
