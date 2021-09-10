@@ -4,21 +4,40 @@
     align-items: center;
 
     height: 100vh;
-
-    border: 1px solid black;
 }
 
 .slider{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     height: 75%;
     width: 80%;
-
-    border: 1px solid black;
 }
 
-.slideTitle{
-    font-size: 20px;
+.slider__circles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 30px;
+    padding-top: 15px;
+}
+
+.slider__circles div{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: teal;
+}
+
+.slider__circles div:hover{
+    cursor: pointer;
 }

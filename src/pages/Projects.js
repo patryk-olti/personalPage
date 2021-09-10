@@ -4,16 +4,18 @@ import Slide from '../components/Slide';
 
 import '../styles/Projects.css';
 
+import imgSyskon from '../img/projects/syskon.png';
+
 const Projects = () => {
 
-    /*const listOfProjects = [
+    const listOfProjects = [
         {
             id: 1,
             titlePL: "strona firmy SysKon",
-            titleENG: "SysKons website",
-            ghPages: "link",
-            ghRepo: "link",
-            imgLink: "..."
+            titleENG: "SysKon's website",
+            ghPages: "https://patryk-olti.github.io/syskon/#",
+            ghRepo: "https://github.com/patryk-olti/personalPage",
+            imgLink: imgSyskon
         },
         {
             id: 2,
@@ -23,12 +25,19 @@ const Projects = () => {
             ghRepo: "link",
             imgLink: "..."
         },
-    ]*/
+    ]
+
+    const dots = listOfProjects.map(item => (
+        <div></div>
+    ))
 
     return(
         <div className="containerProjects" id="projects">
             <div className="slider">
-                <Slide />
+                <Slide projectInfo={listOfProjects[0]} />
+                <div className="slider__circles">
+                    { dots }
+                </div>
             </div>
         </div>
     )
