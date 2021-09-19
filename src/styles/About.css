@@ -4,10 +4,10 @@ div.about__container{
     justify-content: center;
     align-items: center;
 
-    position: relative;
     height: 100vh;
 
     user-select: none;
+    z-index: -1;
 }
 
 div.container__content{
@@ -64,22 +64,34 @@ div.content__socials{
     flex-direction: column;
     justify-content: center;
 
+    position: absolute;
+    right: 2%;
+
     font-size: 50px;
+    color: white;
 }
 
 div.content__socials a{
-    color: black;
+    cursor:default;
 }
 
 .socials__icon{
-    padding: 10px 0;
+    padding: 0;
+    margin-bottom: 10px;
+    color: white;
 }
 
+.socials__icon:hover{
+    cursor: pointer;
+}
+
+.icon--lightMode{ color: black; }
+.icon--darkMode{ color: white; }
 
 div.container__background{
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 2%;
 
     font-size: 200px;
 

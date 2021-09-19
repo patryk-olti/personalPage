@@ -2,8 +2,7 @@ import React, { useContext } from 'react';
 
 import { AppContext } from '../AppContext';
 
-import { faMoon } from '@fortawesome/free-solid-svg-icons';
-import { faSun } from '@fortawesome/free-solid-svg-icons';
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 import NavButton from '../components/NavButton';
 import LanguageButton from '../components/LanguageButton';

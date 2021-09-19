@@ -1,14 +1,15 @@
 .ProgressBar__container{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
     width: 500px;
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .ProgressBar__icon{
-    height: 30px;
+    font-size: 36px;
 }
 
 .ProgressBar__emptyBar{

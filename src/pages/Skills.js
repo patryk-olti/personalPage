@@ -4,12 +4,7 @@ import { AppContext } from '../AppContext';
 
 import ProgressBar from '../components/ProgressBar';
 
-import html5 from '../img/icons/html5.svg';
-import css3 from '../img/icons/css3.svg';
-import js from '../img/icons/js.svg';
-import react from '../img/icons/react.svg';
-import node from '../img/icons/node.svg';
-import github from '../img/icons/github.svg';
+import { faHtml5, faCss3, faJs, faReact, faNodeJs, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import '../styles/Skills.css';
 
@@ -18,16 +13,27 @@ const Skills = () => {
     const { isPolish } = useContext( AppContext );
 
     return(
-        <div className="skillsContainer" id="skills">
-            <div className="skillsTitle"><span>{isPolish ? 'Umiejętności' : 'Skills' }</span></div>
-            <div className="skills">
-                <ProgressBar progress="50" icon={html5} />
-                <ProgressBar progress="80" icon={css3} />
-                <ProgressBar progress="80" icon={js} />
-                <ProgressBar progress="60" icon={react} />
-                <ProgressBar progress="20" icon={node} />
-                <ProgressBar progress="25" icon={github} />
+        <div className="skills__container" id="skills">
+            <div className="skills__section"> 
+                <div className="skills__image">
+                    img
+                </div>
             </div>
+
+            <div className="skills__section">  
+                <div className="skills__title"><span>{isPolish ? 'Umiejętności' : 'Skills' }</span></div>
+                    <div className="skills__skills">
+                        <ProgressBar progress="50" icon={faHtml5} />
+                        <ProgressBar progress="80" icon={faCss3} />
+                        <ProgressBar progress="80" icon={faJs} />
+                        <ProgressBar progress="60" icon={faReact} />
+                        <ProgressBar progress="20" icon={faNodeJs} />
+                        <ProgressBar progress="25" icon={faGithub} />
+                </div>
+            </div>
+
+
+            <div className="skills__background"> skills </div>
         </div>
         
     )

@@ -17,6 +17,7 @@ const DivNavBar = () => {
             borderBottom: "1px solid gray",
             backgroundColor: "rgb(186, 204, 228)",
             color: "black",
+            zIndex: 10
         },
         darkMode: {
             display: 'flex',
@@ -25,7 +26,8 @@ const DivNavBar = () => {
             position: "fixed",
             borderBottom: "1px solid gray",
             backgroundColor: "rgb(1, 29, 65)",
-            color: "white"
+            color: "white",
+            zIndex: 10
         },
         logo: {
             margin: "10px",
