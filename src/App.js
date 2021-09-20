@@ -7,6 +7,9 @@ import About from './pages/About';
 import Skills from './pages/Skills';
 import Education from './pages/Education';
 import Projects from './pages/Projects';
+
+import Footer from './pages/Footer';
+
 import Login from './pages/Login';
 
 import './styles/App.css';
@@ -23,6 +26,7 @@ const App = () => {
         <Skills />
         <Education />
         <Projects />
+        <Footer />
 
         { isLogged ? <Login /> : null }
       </div>
