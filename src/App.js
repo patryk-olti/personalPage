@@ -7,6 +7,7 @@ import About from './pages/About';
 import Skills from './pages/Skills';
 import Education from './pages/Education';
 import Projects from './pages/Projects';
+import Login from './pages/Login';
 
 import './styles/App.css';
 
@@ -22,6 +23,8 @@ const App = () => {
         <Skills />
         <Education />
         <Projects />
+
+        <Login />
       </div>
   );
 }

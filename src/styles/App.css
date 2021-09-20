@@ -1,4 +1,6 @@
 .App {
+  position: relative;
+  
   text-align: center;
   font-family: 'Bree Serif';
 }

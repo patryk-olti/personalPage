@@ -4,9 +4,11 @@ import { AppContext } from '../AppContext';
 
 import NavBar from './NavBar';
 
+import '../styles/DivNavBar.css';
+
 const DivNavBar = () => {
 
-    const { isDark } = useContext(AppContext);
+    const { isDark, toggleIsLogged } = useContext(AppContext);
 
     const styles = {
         lightMode: {
@@ -28,19 +30,12 @@ const DivNavBar = () => {
             backgroundColor: "rgb(1, 29, 65)",
             color: "white",
             zIndex: 10
-        },
-        logo: {
-            margin: "10px",
-            paddingRight: "5px",
-            fontSize: "20px",
-            letterSpacing: "3px",
-            borderRight: "7px solid rgb(0, 108, 180)"
         }
     }
 
     return(
         <div style={isDark ? styles.darkMode : styles.lightMode}>
-            <div style={styles.logo}>Patryk</div>
+            <div className='divNavBar__logo' onClick={toggleIsLogged} >Patryk</div>
             <NavBar />
         </div>
     )

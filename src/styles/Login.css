@@ -1,0 +1,40 @@
+.login__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100vh;
+    width: 100%;
+
+    background-color: rgba(186, 204, 228,85%);
+}
+
+.login__box{
+    padding: 50px;
+
+    border: 1px solid black;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 50px;
+}
+
+.login__form label{
+    border: 1px solid black;
+}
+
+.login__form label input{
+    font-size: 50px;
+}
+
+.login__form button{
+    font-size: 50px;
+}
+
