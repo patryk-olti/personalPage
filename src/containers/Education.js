@@ -23,9 +23,9 @@ const dbEducation = [
 const Education = () => {
 
     return(
-        <div className="component">
+        <div className="education__component">
 
-            <div className="container">
+            <div className="education__container">
                 <div className="tile text">
                     <div className="fieldOfStudy">{dbEducation[0].name}</div>
                     <div className="schoolName">{dbEducation[0].school}</div>
@@ -39,13 +39,13 @@ const Education = () => {
                 </div>
             </div>
 
-            <div className="container centerBar">
+            <div className="education__container centerBar">
                 <div className="tile circle"></div>
                 <div className="tile circle"></div>
                 <div className="tile circle"></div>
             </div>
 
-            <div className="container">
+            <div className="education__container">
                 <div className="tile text"></div>
                 <div className="tile text">
                     <div className="fieldOfStudy">{dbEducation[1].name}</div>

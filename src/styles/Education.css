@@ -1,4 +1,14 @@
-.component{
+.education__background{
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+
+    font-size: 200px;
+
+    color:rgba(0, 108, 180, 15%);
+}
+
+.education__component{
     display: flex;
     justify-content: space-around;
 
@@ -6,7 +16,7 @@
     padding: 50px;
 }
 
-.component .container{
+.education__component .education__container{
     position: relative;
     height: 200px;
     width: 1px;
@@ -18,7 +28,7 @@
     background-color: black;
 }
 
-.container .tile{
+.education__container .tile{
     position: absolute;
     top: 0;
     left: 1px;
@@ -26,10 +36,10 @@
     transform: translate(-50%, -50%);
 }
 
-.container .tile:nth-child(1){    top: 10px;   }
-.container .tile:nth-child(2){    top: 100px;  }
-.container .tile:nth-child(3){    top: 200px;  }
-.container .tile:nth-child(4){    top: 300px;  }
+.education__container .tile:nth-child(1){    top: 10px;   }
+.education__container .tile:nth-child(2){    top: 100px;  }
+.education__container .tile:nth-child(3){    top: 200px;  }
+.education__container .tile:nth-child(4){    top: 300px;  }
 
 .circle{
     width: 20px;
@@ -48,6 +58,7 @@
 }
 
 .fieldOfStudy{
+    letter-spacing: 2px;
     font-size: 22px;
     font-weight: 700;
 }
