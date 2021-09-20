@@ -78,11 +78,14 @@ div.content__socials a{
 .socials__icon{
     padding: 0;
     margin-bottom: 10px;
+
     color: white;
+    transition: 0.5s;
 }
 
 .socials__icon:hover{
     cursor: pointer;
+    color:rgb(190, 40, 40);
 }
 
 .icon--lightMode{ color: black; }
