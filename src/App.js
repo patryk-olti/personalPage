@@ -13,7 +13,7 @@ import './styles/App.css';
 
 const App = () => {
 
-  const { isDark } = useContext( AppContext );
+  const { isDark, isLogged } = useContext( AppContext );
   const mode = isDark ? "App darkMode" : "App lightMode";
 
   return (
@@ -24,7 +24,7 @@ const App = () => {
         <Education />
         <Projects />
 
-        <Login />
+        { isLogged ? <Login /> : null }
       </div>
   );
 }

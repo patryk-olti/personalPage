@@ -23,7 +23,7 @@ const About = () => {
 
     return(
         <div className="about__container" id="about">
-            <div className="container__content">
+            <div className="about__content">
                 <div className="content__article">
                     <div className="article__title"> {isPolish ? polishTitle : englishTitle} </div>
                     <div className="article__about"> {isPolish ? polishAbout : englishAbout}</div>
@@ -38,7 +38,7 @@ const About = () => {
                 <a href="linkedIn"> <FontAwesomeIcon icon={faLinkedinIn} className={iconClassName} /> </a>
                 <a href="facebook"> <FontAwesomeIcon icon={faFacebook} className={iconClassName} /> </a>
             </div>
-            <div className="container__background" > about me </div>
+            <div className="about__background" > about me </div>
         </div>
     )
 }

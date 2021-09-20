@@ -4,13 +4,15 @@ div.about__container{
     justify-content: center;
     align-items: center;
 
+    position: relative;
+
     height: 100vh;
 
     user-select: none;
-    z-index: -1;
+    z-index: 1;
 }
 
-div.container__content{
+div.about__content{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -47,6 +49,8 @@ div.content__image{
     justify-content: center;
     align-items: center;
     width: 45%;
+
+    z-index: 2;
 }
 
 div.content__image .image{
@@ -91,7 +95,7 @@ div.content__socials a{
 .icon--lightMode{ color: black; }
 .icon--darkMode{ color: white; }
 
-div.container__background{
+div.about__background{
     position: absolute;
     bottom: 0;
     left: 2%;
