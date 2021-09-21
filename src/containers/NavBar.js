@@ -23,6 +23,7 @@ const NavBar = () => {
             <NavButton name={ isPolish ? "umiejętności" : "skills"} scrollTarget='skills'/>
             <NavButton name={ isPolish ? "edukacja" : "education"} scrollTarget='education'/>
             <NavButton name={ isPolish ? "projekty" : "projects"} scrollTarget='projects'/>
+            <NavButton name={ isPolish ? "aktualności" : "news"} scrollTarget='blog'/>
             <LanguageButton name="Language" />
             <DarkModeButton name="DARK" icon1={faMoon} icon2={faSun} />
         </nav>
