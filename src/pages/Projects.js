@@ -1,11 +1,10 @@
 import React from "react";
 
-import Slider from '../containers/Slider';
-
-import '../styles/Projects.css';
-
+import OneProject from "../components/OneProject";
 import imgSyskon from '../img/projects/syskon.png';
 import imgPizza from '../img/projects/pizza.png';
+
+import '../styles/Projects.css';
 
 const Projects = () => {
 
@@ -37,19 +36,10 @@ const Projects = () => {
         },
     ]
 
-    const dots = listOfProjects.map(item => (
-        <div 
-            key={Math.floor(Math.random()*192929)}
-        ></div>
-    ))
-
     return(
-        <div className="containerProjects" id="projects">
-            <div className="slider">
-                <Slider allProjects={listOfProjects} />
-                <div className="slider__circles">
-                    { dots }
-                </div>
+        <div className="projects__container" id="projects">
+            <div className="projects__content">
+                <OneProject img={listOfProjects[0].imgLink} />
             </div>
         </div>
     )
