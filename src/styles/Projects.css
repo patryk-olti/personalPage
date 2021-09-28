@@ -1,7 +1,29 @@
 .projects__container{
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
 
     height: 100vh;
+}
+
+.projects__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+
+    height: 100%;
+    width: 100%;
+}
+
+.projects__background{
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+
+    font-size: 200px;
+
+    color:rgba(0, 108, 180, 15%);
 }
