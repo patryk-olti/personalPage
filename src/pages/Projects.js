@@ -42,7 +42,7 @@ const Projects = () => {
     ]
 
     return(
-        <div className="projects__container" id="projects">
+        <div className="container" id="projects">
             <div className="projects__content">
                 <OneProject dbItem={listOfProjects[0]} />
                 <OneProject dbItem={listOfProjects[1]} />

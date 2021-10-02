@@ -22,11 +22,11 @@ const About = () => {
     const iconClassName = isDark ? "socials__icon icon--darkMode" : "socials__icon icon--lightMode";
 
     return(
-        <div className="about__container" id="about">
+        <div className="container" id="about">
             <div className="about__content">
                 <div className="content__article">
-                    <div className="article__title"> {isPolish ? polishTitle : englishTitle} </div>
-                    <div className="article__about"> {isPolish ? polishAbout : englishAbout}</div>
+                    <div><span className="titleText"> {isPolish ? polishTitle : englishTitle}</span> </div>
+                    <div><span className="largeText" >{isPolish ? polishAbout : englishAbout} </span></div>
                 </div>
                 <div className="content__image">
                      <img src={ patrykImg } className="image" alt="img" /> 

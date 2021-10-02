@@ -14,3 +14,129 @@
   background-color: rgb(1, 29, 65);
   color: white;
 }
+
+@media (max-width: 1920px){
+  span.titleText{
+    font-size: 70px;
+    color:rgb(190, 40, 40);
+  }
+
+  span.largeText{
+    font-size: 22px;
+    line-height: 180%;
+    letter-spacing: 2px;
+  }
+
+  span.buttonText{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  div.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    user-select: none;
+    z-index: 1;
+  }
+
+  div.buttonNav{
+    width: 8em;
+    border-right: 1px solid rgb(138, 138, 138);
+  }
+}
+
+@media (max-width: 1366px){
+  span.titleText{
+    font-size: 60px;
+    color:rgb(190, 40, 40);
+  }
+
+  span.largeText{
+    font-size: 20px;
+  }
+
+  span.buttonText{
+    font-size: 18px;
+  }
+
+  div.buttonNav{
+    width: 7em;
+  }
+}
+
+@media (max-width: 1280px){
+  span.titleText{
+    font-size: 50px;
+    color:rgb(190, 40, 40);
+  }
+
+  span{
+      font-size: 18px;
+  }   
+}
+
+@media (max-width: 1024px){
+  span.titleText{
+    font-size: 40px;
+    color:rgb(190, 40, 40);
+  }
+
+  span.largeText{
+    font-size: 18px;
+    line-height: 160%;
+  }  
+
+  span.buttonText{
+    font-size: 14px;
+  }
+
+  div.buttonNav{
+    width: 5.5em;
+  }
+}
+
+@media (max-width: 640px){
+  span.titleText{
+    font-size: 50px;
+    color:rgb(190, 40, 40);
+  }
+
+  span.largeText{
+    font-size: 16px;
+  }
+
+  span.buttonText{
+    font-size: 12px;
+  }
+
+  div.buttonNav{
+    width: 4.5em;
+  }
+}
+
+@media (max-width: 414px){
+  span.titleText{
+    font-size: 50px;
+    color:rgb(190, 40, 40);
+  }
+
+  span{
+      font-size: 18px;
+  }   
+}
+
+@media (max-width: 375px){
+  span.titleText{
+    font-size: 50px;
+    color:rgb(190, 40, 40);
+  }
+
+  span{
+      font-size: 18px;
+  }   
+}

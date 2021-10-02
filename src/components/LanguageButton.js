@@ -2,17 +2,29 @@ import React, { useContext } from 'react';
 
 import { AppContext } from '../AppContext';
 
-import '../styles/Buttons.css';
-
 const ContextButton = ({ name }) => {
 
     const { isPolish, toggleLanguage } = useContext(AppContext);
 
     const txt = isPolish ? "ENG" : "PL";
+
+    const styles = {
+        button: {
+            padding: '5px 10px',
+        }
+    }
+
+    function hoverButtonOn(e) {
+        e.target.style.cursor = 'pointer';
+    }
     
     return(
-        <div className="basicButton" onClick={ toggleLanguage }>
-            { txt }
+        <div 
+            style={styles.button} 
+            onClick={ toggleLanguage }
+            onMouseOver={hoverButtonOn}
+        >
+            <span className="buttonText"> { txt } </span>
         </div>
     )
 }

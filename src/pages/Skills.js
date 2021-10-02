@@ -13,7 +13,7 @@ const Skills = () => {
     const { isPolish } = useContext( AppContext );
 
     return(
-        <div className="skills__container" id="skills">
+        <div className="container" id="skills">
             <div className="skills__section"> 
                 <div className="skills__image">
                     img
@@ -21,7 +21,7 @@ const Skills = () => {
             </div>
 
             <div className="skills__section">  
-                <div className="skills__title"><span>{isPolish ? 'Umiejętności' : 'Skills' }</span></div>
+                <div><span className="titleText">{isPolish ? 'Umiejętności' : 'Skills' }</span></div>
                     <div className="skills__skills">
                         <ProgressBar progress="50" icon={faHtml5} />
                         <ProgressBar progress="80" icon={faCss3} />

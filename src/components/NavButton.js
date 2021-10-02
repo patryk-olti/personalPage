@@ -21,9 +21,9 @@ const NavButton = ({ name, scrollTarget }) => {
       })
 
     return(
-        <div className="navDiv">
+        <div className="buttonNav">
             <button className={ mode } onClick={() => moveTo.move(target)}>
-                { name }
+                <span className="buttonText">{ name }</span>
             </button>
         </div>
     )    

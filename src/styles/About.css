@@ -1,17 +1,3 @@
-div.about__container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    position: relative;
-
-    height: 100vh;
-
-    user-select: none;
-    z-index: 1;
-}
-
 div.about__content{
     display: flex;
     flex-direction: row;
@@ -29,21 +15,6 @@ div.content__article{
     height: 100%;
 }
 
-div.article__title{
-    width: 100%;
-
-    font-size: 100px;
-    text-align: right;
-
-    color:rgb(190, 40, 40);
-}
-
-div.article__about{
-    letter-spacing: 2px;
-    line-height: 180%;
-    font-size: 22px;
-}
-
 div.content__image{
     display: flex;
     justify-content: center;
@@ -54,8 +25,8 @@ div.content__image{
 }
 
 div.content__image .image{
-    width: 500px;
-    height: 500px;
+    width: 30rem;
+    height: 30rem;
 
     object-fit: cover;
 
