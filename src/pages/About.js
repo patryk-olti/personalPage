@@ -38,7 +38,7 @@ const About = () => {
                 <a href="linkedIn"> <FontAwesomeIcon icon={faLinkedinIn} className={iconClassName} /> </a>
                 <a href="facebook"> <FontAwesomeIcon icon={faFacebook} className={iconClassName} /> </a>
             </div>
-            <div className="about__background" > about me </div>
+            <div className="about__background" > <span className="backgroundText"> about me </span> </div>
         </div>
     )
 }

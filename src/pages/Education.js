@@ -9,7 +9,7 @@ const Education = () => {
             <div>
                 <span className="titleText">Edukacja</span>
                 <EducationContainer />
-                <div className="education__background">education</div>
+                <div className="education__background"><span className="backgroundText">education</span></div>
             </div>
         </div>
     )

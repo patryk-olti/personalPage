@@ -27,15 +27,15 @@ const Education = () => {
 
             <div className="education__container">
                 <div className="tile text">
-                    <div className="fieldOfStudy">{dbEducation[0].name}</div>
-                    <div className="schoolName">{dbEducation[0].school}</div>
-                    <div className="date">{dbEducation[0].date}</div>
+                    <div> <span className="largeText">{dbEducation[0].name} </span></div>
+                    <div> <span className="normalText">{dbEducation[0].school} </span></div>
+                    <div> <span className="smallText">{dbEducation[0].date} </span></div>
                 </div>
                 <div className="tile text"></div>
                 <div className="tile text">
-                    <div className="fieldOfStudy">{dbEducation[2].name}</div>
-                    <div className="schoolName">{dbEducation[2].school}</div>
-                    <div className="date">{dbEducation[2].date}</div>
+                <div> <span className="largeText">{dbEducation[2].name} </span></div>
+                <div> <span className="normalText">{dbEducation[2].school} </span></div>
+                <div> <span className="smallText">{dbEducation[2].date} </span></div>
                 </div>
             </div>
 
@@ -48,9 +48,9 @@ const Education = () => {
             <div className="education__container">
                 <div className="tile text"></div>
                 <div className="tile text">
-                    <div className="fieldOfStudy">{dbEducation[1].name}</div>
-                    <div className="schoolName">{dbEducation[1].school}</div>
-                    <div className="date">{dbEducation[1].date}</div>
+                <div> <span className="largeText">{dbEducation[1].name} </span></div>
+                <div> <span className="normalText">{dbEducation[1].school} </span></div>
+                <div> <span className="smallText">{dbEducation[1].date} </span></div>
                 </div>
                 <div className="tile text"></div>
             </div>

@@ -2,10 +2,6 @@
     position: absolute;
     bottom: 0;
     left: 2%;
-
-    font-size: 200px;
-
-    color:rgba(0, 108, 180, 15%);
 }
 
 .education__component{
@@ -55,22 +51,4 @@
     padding: 5px;
 
     letter-spacing: 1px;
-}
-
-.fieldOfStudy{
-    letter-spacing: 2px;
-    font-size: 22px;
-    font-weight: 700;
-}
-
-.schoolName{
-    font-size: 14px;
-}
-
-.date{
-    margin-top: 20px;
-
-    letter-spacing: 0px;
-    font-size: 14px;
-    font-weight: 700;
 }

@@ -49,7 +49,7 @@ const Projects = () => {
                 <OneProject dbItem={listOfProjects[2]} />
             </div>
 
-            <div className="projects__background">projects</div>
+            <div className="projects__background"><span className="backgroundText">projects</span></div>
         </div>
     )
 }

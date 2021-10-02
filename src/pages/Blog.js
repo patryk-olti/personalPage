@@ -9,7 +9,7 @@ const Blog = () => {
             <div className='blog__content'>
 
             </div>
-            <div className='blog__background'>blog</div>
+            <div className='blog__background'><span className="backgroundText">blog</span></div>
         </div>
     )
 }
