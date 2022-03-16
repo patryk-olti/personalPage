@@ -3,6 +3,7 @@ import React, { useContext } from 'react';
 import { AppContext } from '../AppContext';
 
 import ProgressBar from '../components/ProgressBar';
+import patrykImg2 from '../img/patryk2.jpg';
 
 import { faHtml5, faCss3, faJs, faReact, faNodeJs, faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -16,7 +17,7 @@ const Skills = () => {
         <div className="container" id="skills">
             <div className="skills__section"> 
                 <div className="skills__image">
-                    img
+                <img src={ patrykImg2 } className="image" alt="img" /> 
                 </div>
             </div>
 
