@@ -7,7 +7,6 @@ import About from './pages/About';
 import Skills from './pages/Skills';
 import Education from './pages/Education';
 import Projects from './pages/Projects';
-import Blog from './pages/Blog';
 import Footer from './pages/Footer';
 
 import Login from './pages/Login';
@@ -26,7 +25,6 @@ const App = () => {
         <Skills />
         <Education />
         <Projects />
-        <Blog />
         <Footer />
 
         { isLogged ? <Login /> : null }

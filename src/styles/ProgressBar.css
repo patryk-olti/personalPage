@@ -1,15 +1,26 @@
+.ProgressBar__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
 .ProgressBar__container{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     width: 500px;
-    padding: 5px;
-    margin-bottom: 5px;
 }
 
 .ProgressBar__icon{
     font-size: 36px;
+}
+
+.ProgressBar__span{
+    font-size: 16px;
+    margin-top: -5px;
 }
 
 .ProgressBar__emptyBar{

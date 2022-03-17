@@ -5,7 +5,7 @@ import { AppContext } from '../AppContext';
 import ProgressBar from '../components/ProgressBar';
 import patrykImg2 from '../img/patryk2.jpg';
 
-import { faHtml5, faCss3, faJs, faReact, faNodeJs, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faCss3, faJs, faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
 
 import '../styles/Skills.css';
 
@@ -24,12 +24,11 @@ const Skills = () => {
             <div className="skills__section">  
                 <div><span className="titleText">{isPolish ? 'Umiejętności' : 'Skills' }</span></div>
                     <div className="skills__skills">
-                        <ProgressBar progress="50" icon={faHtml5} />
-                        <ProgressBar progress="80" icon={faCss3} />
-                        <ProgressBar progress="80" icon={faJs} />
-                        <ProgressBar progress="60" icon={faReact} />
-                        <ProgressBar progress="20" icon={faNodeJs} />
-                        <ProgressBar progress="25" icon={faGithub} />
+                        <ProgressBar progress="90" icon={faHtml5} name='HTML5'/>
+                        <ProgressBar progress="90" icon={faCss3} name='CSS3'/>
+                        <ProgressBar progress="80" icon={faJs} name='JavaScript'/>
+                        <ProgressBar progress="80" icon={faReact} name='React'/>
+                        <ProgressBar progress="20" icon={faNodeJs} name='Node.JS'/>
                 </div>
             </div>
 

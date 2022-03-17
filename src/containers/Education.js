@@ -17,7 +17,12 @@ const dbEducation = [
         name: 'Elektronik',
         school: 'Politechnika Wrocławska',
         date: '01.10.2016 - 28.01.2020'
-    }
+    },
+    {
+        name: 'React Developer',
+        school: 'Szkoła Reacta',
+        date: '01.10.2021 - 28.01.2022'
+    },
 ]
 
 const Education = () => {
@@ -31,6 +36,7 @@ const Education = () => {
                     <div> <span className="normalText">{dbEducation[0].school} </span></div>
                     <div> <span className="smallText">{dbEducation[0].date} </span></div>
                 </div>
+                
                 <div className="tile text"></div>
                 <div className="tile text">
                 <div> <span className="largeText">{dbEducation[2].name} </span></div>
@@ -43,6 +49,7 @@ const Education = () => {
                 <div className="tile circle"></div>
                 <div className="tile circle"></div>
                 <div className="tile circle"></div>
+                <div className="tile circle"></div>
             </div>
 
             <div className="education__container">
@@ -52,7 +59,14 @@ const Education = () => {
                 <div> <span className="normalText">{dbEducation[1].school} </span></div>
                 <div> <span className="smallText">{dbEducation[1].date} </span></div>
                 </div>
+
                 <div className="tile text"></div>
+                <div className="tile text">
+                <div> <span className="largeText">{dbEducation[3].name} </span></div>
+                <div> <span className="normalText">{dbEducation[3].school} </span></div>
+                <div> <span className="smallText">{dbEducation[3].date} </span></div>
+                </div>
+                
             </div>
 
         </div>
