@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="footer__content">
                 Patryk Oltuch
                 &copy;
-                wszelkie prawa zastrzeżone
+                2022
             </div>
         </div>
     )

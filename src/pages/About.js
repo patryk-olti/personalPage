@@ -33,10 +33,10 @@ const About = () => {
                 </div>
             </div>
             <div className="content__socials"> 
-                <a href="instagram"> <FontAwesomeIcon icon={faInstagram} className={iconClassName} /> </a>
-                <a href="github"> <FontAwesomeIcon icon={faGithub} className={iconClassName} /> </a>
-                <a href="linkedIn"> <FontAwesomeIcon icon={faLinkedinIn} className={iconClassName} /> </a>
-                <a href="facebook"> <FontAwesomeIcon icon={faFacebook} className={iconClassName} /> </a>
+                <a href="https://www.instagram.com/_oltix/"> <FontAwesomeIcon icon={faInstagram} className={iconClassName} /> </a>
+                <a href="https://github.com/patryk-olti"> <FontAwesomeIcon icon={faGithub} className={iconClassName} /> </a>
+                <a href="https://www.linkedin.com/in/patrykoltuch/"> <FontAwesomeIcon icon={faLinkedinIn} className={iconClassName} /> </a>
+                <a href="https://www.facebook.com/patryk.oltuch/"> <FontAwesomeIcon icon={faFacebook} className={iconClassName} /> </a>
             </div>
             <div className="about__background" > <span className="backgroundText"> about me </span> </div>
         </div>

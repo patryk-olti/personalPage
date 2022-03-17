@@ -3,8 +3,9 @@ import React from "react";
 import OneProject from "../components/OneProject";
 
 import imgSyskon from '../img/projects/syskon.png';
-import imgPizza from '../img/projects/pizza.png';
+import imgWgory from '../img/projects/wgory.png';
 import imgAcademy from '../img/projects/akademia.png';
+import imgWallet from '../img/projects/currency.png';
 
 import '../styles/Projects.css';
 
@@ -22,14 +23,13 @@ const Projects = () => {
         },
         {
             id: 2,
-            titlePL: "strona pizzerii",
-            titleENG: "pizza place website",
-            description: "HTML5, CSS3, JS",
-            ghPages: "https://patryk-olti.github.io/syskon/#",
-            ghRepo: "https://github.com/patryk-olti/PizzaPlace",
-            imgLink: imgPizza
-        }
-        ,
+            titlePL: "aplikacja górska",
+            titleENG: "Moutains app",
+            description: "React, Next.JS, GSAP, firebase",
+            ghPages: "https://mountains-eight.vercel.app/",
+            ghRepo: "",
+            imgLink: imgWgory
+        },
         {
             id: 3,
             titlePL: "centrum dziecka",
@@ -39,6 +39,15 @@ const Projects = () => {
             ghRepo: "https://github.com/patryk-olti/personalPage",
             imgLink: imgAcademy
         },
+        {
+            id: 4,
+            titlePL: "portfel walut",
+            titleENG: "currency wallet",
+            description: "TypeScript, Redux, GSAP",
+            ghPages: "https://patryk-olti.github.io/nask/",
+            ghRepo: "https://github.com/patryk-olti/nask",
+            imgLink: imgWallet
+        },
     ]
 
     return(
@@ -47,6 +56,7 @@ const Projects = () => {
                 <OneProject dbItem={listOfProjects[0]} />
                 <OneProject dbItem={listOfProjects[1]} />
                 <OneProject dbItem={listOfProjects[2]} />
+                <OneProject dbItem={listOfProjects[3]} />
             </div>
 
             <div className="projects__background"><span className="backgroundText">projects</span></div>
