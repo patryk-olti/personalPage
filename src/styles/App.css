@@ -72,7 +72,7 @@
   }
 
   span.largeText{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   span.normalText{
@@ -98,6 +98,10 @@
 
 @media (max-width: 1280px){
 
+  span.largeText{
+    font-size: 16px;
+  }
+
   span.backgroundText{
     font-size: 140px;
   }
@@ -111,7 +115,7 @@
   }
 
   span.largeText{
-    font-size: 18px;
+    font-size: 15px;
     line-height: 160%;
   }  
 
@@ -134,12 +138,12 @@
 
 @media (max-width: 640px){
   span.titleText{
-    font-size: 50px;
+    font-size: 30px;
     color:rgb(190, 40, 40);
   }
 
   span.largeText{
-    font-size: 16px;
+    font-size: 14px;
   }
 
   span.backgroundText{
@@ -157,8 +161,12 @@
 
 @media (max-width: 414px){
   span.titleText{
-    font-size: 50px;
+    font-size: 20px;
     color:rgb(190, 40, 40);
+  }
+
+  span.largeText{
+    font-size: 13px;
   }
 
   span{
@@ -168,7 +176,7 @@
 
 @media (max-width: 375px){
   span.titleText{
-    font-size: 50px;
+    font-size: 18px;
     color:rgb(190, 40, 40);
   }
 
