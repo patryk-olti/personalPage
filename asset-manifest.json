@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/personalPage/static/css/main.ceeb38fb.chunk.css",
-    "main.js": "/personalPage/static/js/main.00ba765b.chunk.js",
-    "main.js.map": "/personalPage/static/js/main.00ba765b.chunk.js.map",
+    "main.css": "/personalPage/static/css/main.c3f877b6.chunk.css",
+    "main.js": "/personalPage/static/js/main.939fb51c.chunk.js",
+    "main.js.map": "/personalPage/static/js/main.939fb51c.chunk.js.map",
     "runtime-main.js": "/personalPage/static/js/runtime-main.2acfe8f9.js",
     "runtime-main.js.map": "/personalPage/static/js/runtime-main.2acfe8f9.js.map",
-    "static/js/2.20c04028.chunk.js": "/personalPage/static/js/2.20c04028.chunk.js",
-    "static/js/2.20c04028.chunk.js.map": "/personalPage/static/js/2.20c04028.chunk.js.map",
+    "static/js/2.f89bd2fd.chunk.js": "/personalPage/static/js/2.f89bd2fd.chunk.js",
+    "static/js/2.f89bd2fd.chunk.js.map": "/personalPage/static/js/2.f89bd2fd.chunk.js.map",
     "index.html": "/personalPage/index.html",
-    "static/css/main.ceeb38fb.chunk.css.map": "/personalPage/static/css/main.ceeb38fb.chunk.css.map",
-    "static/js/2.20c04028.chunk.js.LICENSE.txt": "/personalPage/static/js/2.20c04028.chunk.js.LICENSE.txt",
+    "static/css/main.c3f877b6.chunk.css.map": "/personalPage/static/css/main.c3f877b6.chunk.css.map",
+    "static/js/2.f89bd2fd.chunk.js.LICENSE.txt": "/personalPage/static/js/2.f89bd2fd.chunk.js.LICENSE.txt",
     "static/media/akademia.a95fdd49.png": "/personalPage/static/media/akademia.a95fdd49.png",
+    "static/media/currency.3147977e.png": "/personalPage/static/media/currency.3147977e.png",
     "static/media/patryk.9f3f370a.jpg": "/personalPage/static/media/patryk.9f3f370a.jpg",
     "static/media/patryk2.3e34d3da.jpg": "/personalPage/static/media/patryk2.3e34d3da.jpg",
-    "static/media/pizza.85d4fc75.png": "/personalPage/static/media/pizza.85d4fc75.png",
-    "static/media/syskon.7071db0f.png": "/personalPage/static/media/syskon.7071db0f.png"
+    "static/media/syskon.7071db0f.png": "/personalPage/static/media/syskon.7071db0f.png",
+    "static/media/wgory.5efab833.png": "/personalPage/static/media/wgory.5efab833.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2acfe8f9.js",
-    "static/js/2.20c04028.chunk.js",
-    "static/css/main.ceeb38fb.chunk.css",
-    "static/js/main.00ba765b.chunk.js"
+    "static/js/2.f89bd2fd.chunk.js",
+    "static/css/main.c3f877b6.chunk.css",
+    "static/js/main.939fb51c.chunk.js"
   ]
 }
