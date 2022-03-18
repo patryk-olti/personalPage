@@ -33,7 +33,7 @@ const About = () => {
                 </div>
 
                 <div className={index.content__section}>
-                     <img src={ patrykImg } className={index.about__image} alt="img" /> 
+                     <img src={ patrykImg } className={index.content__image} alt="img" /> 
                 </div>
 
                 <div className={index.socials} > 
@@ -54,11 +54,9 @@ const About = () => {
                         className={index.about__singleIcon}
                     > <FontAwesomeIcon icon={faFacebook} className={iconClassName} /> </a>
                 </div>
-
             </div>
-
-            
-            <div className={index.background__text} > about me </div>
+     
+            <div className={index.background__text} > <span className={index.left}>  about me </span></div>
         </div>
     )
 }

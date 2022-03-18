@@ -13,7 +13,13 @@
 .content__flexRow{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+}
+
+.content__flexColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content__section{
@@ -36,7 +42,7 @@
     color: white;
 }
 
-.about__image{
+.content__image{
     width: 25rem;
     height: 25rem;
 
@@ -63,29 +69,36 @@
     color:rgb(190, 40, 40);
 }
 
-
-
 .background__text{
+    color:rgba(0, 108, 180, 15%);
+}
+
+.left{
     position: absolute;
     bottom: 0;
     left: 2%;
-    color:rgba(0, 108, 180, 15%);
+}
+
+.right{
+    position: absolute;
+    bottom: 0;
+    right: 2%;
 }
 
 
 /* RWD */
 @media (min-width: 1367px){
-    .about__image{ width: 27rem; height: 27rem; }
+    .content__image{ width: 27rem; height: 27rem; }
     .background__text{ font-size: 10rem; }
 }
 
 @media (max-width: 1366px){
-    .about__image{ width: 27rem; height: 27rem; }
+    .content__image{ width: 27rem; height: 27rem; }
     .background__text{ font-size: 10rem; }    
 }
   
 @media (max-width: 1280px){
-    .about__image{ width: 24rem; height: 24rem; }
+    .content__image{ width: 24rem; height: 24rem; }
     .background__text{ font-size: 10rem; } 
 }
   
@@ -95,7 +108,7 @@
         flex-direction: row;
     }
 
-    .about__image{ width: 22rem; height: 22rem; }
+    .content__image{ width: 22rem; height: 22rem; }
     .content__section{ flex: 1; } 
     .socials{ flex-direction: column; }
 
@@ -112,22 +125,22 @@
         align-items: center;
     }
 
-    .about__image{ width: 22rem; height: 22rem; }   
+    .content__image{ width: 22rem; height: 22rem; }   
     .content__section{ flex: 0; } 
     .socials{ flex-direction: row; }
 }
   
 @media (max-width: 640px){
-    .about__image{ width: 20rem; height: 20rem; }
+    .content__image{ width: 20rem; height: 20rem; }
     .background__text{ font-size: 6rem; }     
 }
   
 @media (max-width: 414px){
-    .about__image{ width: 18rem; height: 18rem; }  
+    .content__image{ width: 18rem; height: 18rem; }  
     .background__text{ font-size: 5rem; }    
 }
   
 @media (max-width: 375px){
-    .about__image{ width: 15rem; height: 15rem; }    
+    .content__image{ width: 15rem; height: 15rem; }    
     .background__text{ font-size: 4rem; }  
 }
