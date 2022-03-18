@@ -32,9 +32,9 @@ const Education = () => {
 
             <div className="education__container">
                 <div className="tile text">
-                    <div> <span className="largeText">{dbEducation[0].name} </span></div>
-                    <div> <span className="normalText">{dbEducation[0].school} </span></div>
-                    <div> <span className="smallText">{dbEducation[0].date} </span></div>
+                    <span className="largeText">{dbEducation[0].name} </span>
+                    <span className="normalText">{dbEducation[0].school} </span>
+                    <span className="smallText">{dbEducation[0].date} </span>
                 </div>
                 
                 <div className="tile text"></div>
@@ -46,10 +46,7 @@ const Education = () => {
             </div>
 
             <div className="education__container centerBar">
-                <div className="tile circle"></div>
-                <div className="tile circle"></div>
-                <div className="tile circle"></div>
-                <div className="tile circle"></div>
+                {dbEducation.map( item => <div className="tile circle" key={item.id}></div> )}
             </div>
 
             <div className="education__container">
