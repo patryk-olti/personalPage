@@ -7,7 +7,7 @@ import patrykImg from '../img/patryk.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faGithub, faFacebook, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
-import '../styles/About.css';
+import index from '../styles/index.module.css';
 
 const About = () => {
 
@@ -19,26 +19,46 @@ const About = () => {
     const englishTitle = "Hello";
     const englishAbout = "My name's Patryk. I'm graduate University Science and Technologi in Wroclaw, exactly field of study Electronic on Electronic faculty. My programming story started on junior high school with C++, from 2017 I interested with web development. In the future I will be Full Stack developer and that's why I sacrifice a lot of time for education."
 
-    const iconClassName = isDark ? "socials__icon icon--darkMode" : "socials__icon icon--lightMode";
+    const iconClassName = isDark ? index.icon__darkMode :  index.icon__lightMode;
 
     return(
-        <div className="container" id="about">
-            <div className="about__content">
-                <div className="content__article">
-                    <div><span className="titleText"> {isPolish ? polishTitle : englishTitle}</span> </div>
-                    <div><span className="largeText" >{isPolish ? polishAbout : englishAbout} </span></div>
+        <div className={index.container} id="about">
+            <div className={index.content__flexRow}>
+
+                <div className={index.content__section}>
+                    <div className={index.content__textArea}>
+                        <div><span className="titleText"> {isPolish ? polishTitle : englishTitle}</span> </div>
+                        <div><span className="largeText" >{isPolish ? polishAbout : englishAbout} </span></div>
+                    </div>
                 </div>
-                <div className="content__image">
-                     <img src={ patrykImg } className="image" alt="img" /> 
+
+                <div className={index.content__section}>
+                     <img src={ patrykImg } className={index.about__image} alt="img" /> 
                 </div>
+
+                <div className={index.socials} > 
+                    <a 
+                        href="https://www.instagram.com/_oltix/"
+                        className={index.about__singleIcon}
+                        > <FontAwesomeIcon icon={faInstagram} className={iconClassName} /> </a>
+                    <a 
+                        href="https://github.com/patryk-olti"
+                        className={index.about__singleIcon}
+                    > <FontAwesomeIcon icon={faGithub} className={iconClassName} /> </a>
+                    <a 
+                        href="https://www.linkedin.com/in/patrykoltuch/"
+                        className={index.about__singleIcon}
+                    > <FontAwesomeIcon icon={faLinkedinIn} className={iconClassName} /> </a>
+                    <a 
+                        href="https://www.facebook.com/patryk.oltuch/"
+                        className={index.about__singleIcon}
+                    > <FontAwesomeIcon icon={faFacebook} className={iconClassName} /> </a>
+                </div>
+
             </div>
-            <div className="content__socials"> 
-                <a href="https://www.instagram.com/_oltix/"> <FontAwesomeIcon icon={faInstagram} className={iconClassName} /> </a>
-                <a href="https://github.com/patryk-olti"> <FontAwesomeIcon icon={faGithub} className={iconClassName} /> </a>
-                <a href="https://www.linkedin.com/in/patrykoltuch/"> <FontAwesomeIcon icon={faLinkedinIn} className={iconClassName} /> </a>
-                <a href="https://www.facebook.com/patryk.oltuch/"> <FontAwesomeIcon icon={faFacebook} className={iconClassName} /> </a>
-            </div>
-            <div className="about__background" > <span className="backgroundText"> about me </span> </div>
+
+            
+            <div className={index.background__text} > about me </div>
         </div>
     )
 }
