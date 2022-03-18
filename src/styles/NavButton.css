@@ -1,14 +1,8 @@
-div.navDiv{
-    width: 8em;
-    border-right: 1px solid rgb(138, 138, 138);
-}
-
 button.navButton{
-    padding: 5px 0px;
-
     background-color: transparent;
     border: none;
     transition: 0.5s transform;
+    border-right: 1px solid rgb(138, 138, 138);
 }
 
 button.navButton:hover{
@@ -16,10 +10,55 @@ button.navButton:hover{
     transform: translate(2px);
 }
 
-.lightMode{
-    color: "black";
+.lightMode{ color: "black"; }
+
+.darkMode{ color: white; }
+
+.buttonText{
+    font-family: 'Roboto';
+    text-align: center;
+    padding: 0 0.2rem;
+ }
+
+/* RWD */
+@media (min-width: 1367px){
+    .text{ width: 250px; }
+    .education__component{ width: 450px; }
+    .buttonText{ font-size: 1.4rem; }
 }
 
-.darkMode{
-    color: white;
+@media (max-width: 1366px){
+    .text{ width: 230px; }
+    .education__component{ width: 430px; }
+    .buttonText{ font-size: 1.4rem; }
+}
+  
+@media (max-width: 1280px){
+    .text{ width: 220px; }
+    .education__component{ width: 420px; }
+    .buttonText{ font-size: 1.2rem; }
+}
+  
+@media (max-width: 1024px){
+    .text{ width: 220px; }
+    .education__component{ width: 420px; }
+    .buttonText{ font-size: 1rem; }
+}
+
+@media (max-width: 800px){
+    .text{ width: 190px; }
+    .education__component{ width: 380px; }
+    .buttonText{ font-size: 0.9rem; }
+}
+  
+@media (max-width: 640px){
+    .buttonText{ font-size: 0.7rem; }
+}
+  
+@media (max-width: 414px){
+    .buttonText{ font-size: 0.6rem; }
+}
+  
+@media (max-width: 375px){
+    .buttonText{ font-size: 0.5rem; }
 }
