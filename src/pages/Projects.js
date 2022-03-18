@@ -7,7 +7,7 @@ import imgWgory from '../img/projects/wgory.png';
 import imgAcademy from '../img/projects/akademia.png';
 import imgWallet from '../img/projects/currency.png';
 
-import '../styles/Projects.css';
+import index from '../styles/index.module.css';
 
 const Projects = () => {
 
@@ -51,15 +51,15 @@ const Projects = () => {
     ]
 
     return(
-        <div className="container" id="projects">
-            <div className="projects__content">
+        <div className={index.container} id="projects">
+            <div className={index.content__flexRow}>
                 <OneProject dbItem={listOfProjects[0]} />
                 <OneProject dbItem={listOfProjects[1]} />
                 <OneProject dbItem={listOfProjects[2]} />
                 <OneProject dbItem={listOfProjects[3]} />
             </div>
 
-            <div className="projects__background"><span className="backgroundText">projects</span></div>
+            <div className={index.background__text} > <span className={index.right}>  projects </span></div>
         </div>
     )
 }
