@@ -13,17 +13,18 @@
 }
 
 .ProgressBar__icon{
-    font-size: 36px;
+    font-size: 2.2rem;
     margin-right: 20px;
+    font-weight: bold;
 }
 
 .ProgressBar__span{
-    font-size: 16px;
-    margin-top: -5px;
+    font-size: 1rem;
+    color:rgb(190, 40, 40);
 }
 
 .ProgressBar__emptyBar{
-    width: 400px;
+    width: 30rem;
     height: 25px;
 
     border-radius: 20px;
@@ -36,40 +37,9 @@
 
     font-weight: 700;
     color: black;
+    font-size: 1rem;
+    line-height: 25px;
 
     border-radius: 20px;
     background: linear-gradient(90deg, rgb(253, 234, 59) 25%, rgb(58, 255, 78) 85%);
-}
-
-/* RWD */
-@media (min-width: 1367px){
-    .ProgressBar__emptyBar{ width: 400px; }
-}
-
-@media (max-width: 1366px){
-    .ProgressBar__emptyBar{ width: 400px; }
-}
-  
-@media (max-width: 1280px){
-    .ProgressBar__emptyBar{ width: 350px; }
-}
-  
-@media (max-width: 1024px){
-    .ProgressBar__emptyBar{ width: 300px; }
-}
-
-@media (max-width: 800px){
-    .ProgressBar__emptyBar{ width: 300px; }
-}
-  
-@media (max-width: 640px){
-    .ProgressBar__emptyBar{ width: 250px; }
-}
-  
-@media (max-width: 414px){
-
-}
-  
-@media (max-width: 375px){
-
 }

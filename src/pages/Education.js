@@ -13,7 +13,7 @@ const Education = () => {
     return(
         <div className={index.container} id="education">
             <div>
-                <span className="titleText">{isPolish ? 'Edukacja' : 'Education' }</span>
+                <span className={index.titleText}>{isPolish ? 'Edukacja' : 'Education' }</span>
                 <EducationContainer />
                 <div className={index.background__text}> <span className={index.left}>  education </span> </div>
             </div>

@@ -27,8 +27,8 @@ const About = () => {
 
                 <div className={index.content__section}>
                     <div className={index.content__textArea}>
-                        <div><span className="titleText"> {isPolish ? polishTitle : englishTitle}</span> </div>
-                        <div><span className="largeText" >{isPolish ? polishAbout : englishAbout} </span></div>
+                        <span className={index.titleText}> {isPolish ? polishTitle : englishTitle}</span>
+                        <div><span className={index.largeText} >{isPolish ? polishAbout : englishAbout} </span></div>
                     </div>
                 </div>
 

@@ -49,40 +49,47 @@
     flex-direction: column;
 }
 
+.largeText{ font-size: 1.4rem; letter-spacing: 2px; }
+.normalText{ font-size: 1.2rem;}
+.smallText{ font-size: 1rem; }
+
 /* RWD */
 @media (min-width: 1367px){
-    .text{ width: 250px; }
-    .education__component{ width: 450px; }
+    .text{ width: 300px; }
+    .education__component{ width: 550px; }
 }
 
 @media (max-width: 1366px){
-    .text{ width: 230px; }
-    .education__component{ width: 430px; }
+    .text{ width: 270px; }
+    .education__component{ width: 500px; }
 }
   
 @media (max-width: 1280px){
-    .text{ width: 220px; }
-    .education__component{ width: 420px; }
+    .text{ width: 250px; }
+    .education__component{ width: 480px; }
 }
   
 @media (max-width: 1024px){
     .text{ width: 220px; }
-    .education__component{ width: 420px; }
+    .education__component{ width: 470px; }
 }
 
 @media (max-width: 800px){
-    .text{ width: 190px; }
-    .education__component{ width: 380px; }
+    .text{ width: 200px; }
+    .education__component{ width: 400px; }
 }
   
 @media (max-width: 640px){
- 
+    .text{ width: 190px; }
+    .education__component{ width: 350px; }
 }
   
 @media (max-width: 414px){
-
+    .text{ width: 140px; }
+    .education__component{ width: 330px; }
 }
   
 @media (max-width: 375px){
-
+    .text{ width: 130px; }
+    .education__component{ width: 300px; }
 }

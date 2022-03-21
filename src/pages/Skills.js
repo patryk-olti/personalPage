@@ -21,7 +21,7 @@ const Skills = () => {
                 </div>
 
                 <div className={index.content__section}>  
-                    <div><span className="titleText">{isPolish ? 'Umiejętności' : 'Skills' }</span></div>
+                    <span className={index.titleText}>{isPolish ? 'Umiejętności' : 'Skills' }</span>
                         <div className={index.content__flexColumn}>
                             <ProgressBar progress="90" icon={faHtml5} name='HTML5'/>
                             <ProgressBar progress="90" icon={faCss3} name='CSS3'/>

@@ -48,17 +48,18 @@
 }
 
 .content__image{
-    width: 25rem;
-    height: 25rem;
+    width: 27rem;
+    height: 27rem;
 
     object-fit: cover;
 
     border-radius: 10% 30% 10% 2%;
-    border: 5px solid rgb(0, 108, 180);
+    border: 5px solid rgb(190, 40, 40);
 }
 
 .about__singleIcon{
-    padding: 0.3rem;
+    padding: 0.5rem;
+    font-size: 3rem;
 }
 
 .icon__lightMode{ color: black; transition: 0.5s; }
@@ -75,6 +76,7 @@
 }
 
 .background__text{
+    font-size: 8rem;
     color:rgba(0, 108, 180, 15%);
 }
 
@@ -90,37 +92,32 @@
     right: 2%;
 }
 
+/* SPAN's SECTION */
+.titleText{
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    color:rgb(190, 40, 40);
+}
+
+.largeText{
+    font-size: 1.6rem;
+    line-height: 160%;
+}
 
 /* RWD */
-@media (min-width: 1367px){
-    .content__image{ width: 27rem; height: 27rem; }
-    .background__text{ font-size: 10rem; }
-}
-
-@media (max-width: 1366px){
-    .content__image{ width: 27rem; height: 27rem; }
-    .background__text{ font-size: 10rem; }    
-}
-  
-@media (max-width: 1280px){
-    .content__image{ width: 24rem; height: 24rem; }
-    .background__text{ font-size: 10rem; } 
-}
-  
 @media (max-width: 1024px){
     .content__flexRow{
         display: flex;
         flex-direction: row;
     }
 
-    .content__image{ width: 22rem; height: 22rem; }
     .content__section{ flex: 1; } 
     .socials{ flex-direction: column; }
 
     div.content__article{
         width: 80%;
     }
-    .background__text{ font-size: 8rem; } 
 }
 
 @media (max-width: 800px){
@@ -130,22 +127,6 @@
         align-items: center;
     }
 
-    .content__image{ width: 22rem; height: 22rem; }   
     .content__section{ flex: 0; } 
     .socials{ flex-direction: row; }
-}
-  
-@media (max-width: 640px){
-    .content__image{ width: 20rem; height: 20rem; }
-    .background__text{ font-size: 6rem; }     
-}
-  
-@media (max-width: 414px){
-    .content__image{ width: 18rem; height: 18rem; }  
-    .background__text{ font-size: 5rem; }    
-}
-  
-@media (max-width: 375px){
-    .content__image{ width: 15rem; height: 15rem; }    
-    .background__text{ font-size: 4rem; }  
 }

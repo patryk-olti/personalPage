@@ -10,7 +10,7 @@ const ContextButton = ({ name }) => {
 
     const styles = {
         button: {
-            padding: '5px 10px',
+            padding: '0 0.6rem'
         }
     }
 

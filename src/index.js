@@ -5,6 +5,8 @@ import App from './App';
 
 import AppProvider from './AppContext';
 
+import '../src/styles/App.css';
+
 ReactDOM.render(
   <AppProvider>
     <React.StrictMode>

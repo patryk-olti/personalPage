@@ -12,28 +12,26 @@ const DivNavBar = () => {
         lightMode: {
             display: 'flex',
             justifyContent: "space-between",
-            width: "100%",
             borderBottom: "1px solid gray",
             backgroundColor: "rgb(186, 204, 228)",
             color: "black",
-            zIndex: 10
+            zIndex: 10,
+            padding: '0.5rem'
         },
         darkMode: {
             display: 'flex',
             justifyContent: "space-between",
-            width: "100%",
             borderBottom: "1px solid gray",
             backgroundColor: "rgb(1, 29, 65)",
             color: "white",
-            zIndex: 10
+            zIndex: 10,
+            padding: '0.5rem'
         },
         divNavBar__logo: {
-            margin: '10px',
             paddingRight: '5px',
-            fontSize: '20px',
             letterSpacing: '3px',
             borderRight: '7px solid rgb(0, 108, 180)',
-            transition: '0.5s',
+            transition: '0.5s'
         },
     }
 
