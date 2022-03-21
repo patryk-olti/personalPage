@@ -86,10 +86,10 @@
   
 @media (max-width: 414px){
     .text{ width: 140px; }
-    .education__component{ width: 330px; }
+    .education__component{ width: 260px; }
 }
   
 @media (max-width: 375px){
     .text{ width: 130px; }
-    .education__component{ width: 300px; }
+    .education__component{ width: 250px; }
 }

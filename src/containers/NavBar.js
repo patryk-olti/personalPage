@@ -14,8 +14,7 @@ const NavBar = () => {
 
     const styles = {
         display: "flex",
-        justifyContent: 'flex-end',
-        width: '100vw'
+        justifyContent: 'flex-end'
     }
 
     return(

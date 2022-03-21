@@ -10,8 +10,11 @@ const DivNavBar = () => {
 
     const styles = {
         lightMode: {
+            position: 'fixed',
+            width: '100vw',
             display: 'flex',
             justifyContent: "space-between",
+            alignItems: 'center',
             borderBottom: "1px solid gray",
             backgroundColor: "rgb(186, 204, 228)",
             color: "black",
@@ -19,8 +22,11 @@ const DivNavBar = () => {
             padding: '0.5rem'
         },
         darkMode: {
+            position: 'fixed',
+            width: '100vw',
             display: 'flex',
             justifyContent: "space-between",
+            alignItems: 'center',
             borderBottom: "1px solid gray",
             backgroundColor: "rgb(1, 29, 65)",
             color: "white",
@@ -30,8 +36,7 @@ const DivNavBar = () => {
         divNavBar__logo: {
             paddingRight: '5px',
             letterSpacing: '3px',
-            borderRight: '7px solid rgb(0, 108, 180)',
-            transition: '0.5s'
+            borderRight: '7px solid rgb(0, 108, 180)'
         },
     }
 
@@ -52,7 +57,7 @@ const DivNavBar = () => {
                 onMouseOver={hoverStyleOn} 
                 onMouseLeave={hoverStyleOff}
             >
-            <span className="buttonText"> Patryk </span>
+                <span className="buttonText"> Patryk </span>
             </div>
             <NavBar />
         </div>

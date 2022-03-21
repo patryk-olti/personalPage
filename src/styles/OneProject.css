@@ -1,7 +1,7 @@
 .oneProject__container{
     position: relative;
-    width: 25rem;
-    height: 250px;
+    width: 40rem;
+    height: 20rem;
     margin-top: 30px;
 
     border-radius: 15px;
@@ -92,6 +92,7 @@
 }
 
 /* RWD */
+/*
 @media (min-width: 1367px){
     .oneProject__container{ width: 25rem; height: 16rem; }
 }
@@ -122,4 +123,4 @@
   
 @media (max-width: 375px){
     .oneProject__container{ width: 18rem; height: 11rem; }
-}
+}*/

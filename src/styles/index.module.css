@@ -29,7 +29,6 @@
 
 .content__section{
     flex: 1;
-    width: 70%;
     padding: 1rem;
 
 }
@@ -48,8 +47,8 @@
 }
 
 .content__image{
-    width: 27rem;
-    height: 27rem;
+    width: 30rem;
+    height: 30rem;
 
     object-fit: cover;
 

@@ -10,6 +10,8 @@ const ContextButton = ({ name }) => {
 
     const styles = {
         button: {
+            display: 'flex',
+            alignItems: 'center',
             padding: '0 0.6rem'
         }
     }
