@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/personalPage/static/css/main.77a98c03.chunk.css",
-    "main.js": "/personalPage/static/js/main.049e89cb.chunk.js",
-    "main.js.map": "/personalPage/static/js/main.049e89cb.chunk.js.map",
+    "main.css": "/personalPage/static/css/main.31b0bb64.chunk.css",
+    "main.js": "/personalPage/static/js/main.74b595d8.chunk.js",
+    "main.js.map": "/personalPage/static/js/main.74b595d8.chunk.js.map",
     "runtime-main.js": "/personalPage/static/js/runtime-main.2acfe8f9.js",
     "runtime-main.js.map": "/personalPage/static/js/runtime-main.2acfe8f9.js.map",
     "static/js/2.ade8fb00.chunk.js": "/personalPage/static/js/2.ade8fb00.chunk.js",
     "static/js/2.ade8fb00.chunk.js.map": "/personalPage/static/js/2.ade8fb00.chunk.js.map",
     "index.html": "/personalPage/index.html",
-    "static/css/main.77a98c03.chunk.css.map": "/personalPage/static/css/main.77a98c03.chunk.css.map",
+    "static/css/main.31b0bb64.chunk.css.map": "/personalPage/static/css/main.31b0bb64.chunk.css.map",
     "static/js/2.ade8fb00.chunk.js.LICENSE.txt": "/personalPage/static/js/2.ade8fb00.chunk.js.LICENSE.txt",
     "static/media/akademia.a95fdd49.png": "/personalPage/static/media/akademia.a95fdd49.png",
     "static/media/currency.3147977e.png": "/personalPage/static/media/currency.3147977e.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.2acfe8f9.js",
     "static/js/2.ade8fb00.chunk.js",
-    "static/css/main.77a98c03.chunk.css",
-    "static/js/main.049e89cb.chunk.js"
+    "static/css/main.31b0bb64.chunk.css",
+    "static/js/main.74b595d8.chunk.js"
   ]
 }
