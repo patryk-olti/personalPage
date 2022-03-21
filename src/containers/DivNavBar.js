@@ -11,7 +11,7 @@ const DivNavBar = () => {
     const styles = {
         lightMode: {
             position: 'fixed',
-            width: '100vw',
+            width: '100%',
             display: 'flex',
             justifyContent: "space-between",
             alignItems: 'center',
@@ -23,7 +23,7 @@ const DivNavBar = () => {
         },
         darkMode: {
             position: 'fixed',
-            width: '100vw',
+            width: '100%',
             display: 'flex',
             justifyContent: "space-between",
             alignItems: 'center',

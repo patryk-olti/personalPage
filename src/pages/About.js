@@ -14,10 +14,10 @@ const About = () => {
     const { isPolish, isDark } = useContext( AppContext );
 
     const polishTitle = "Cześć";
-    const polishAbout = "Nazywam się Patryk. Jestem absolwentem Politechniki Wrocławskiej, a dokładniej kierunku elektronika na wydziale Elektroniki. Od gimnazjum mam do czynienia z programowaniem (C++), a od 2017 roku interesuję się tematyką web-dewelopmentu. Chciałbym w przyszłości pracować jako full stack, dlatego też dużo czasu poświęcam na edukację."
+    const polishAbout = "Nazywam się Patryk. Od 2012 roku programuję. W 2019 roku rozpocząłem przygodę z technologiami webowymi. Do pisania stron wykorzystuję bibliotekę React wraz z innymi bibliotekami. W przyszłości chciałbym być full stack developerem. Moje zainteresowania to bieganie, chodzenie po górach i piwowarstwo domowe. Uwarzyłem już ponad 50 różnych warek."
 
     const englishTitle = "Hello";
-    const englishAbout = "My name's Patryk. I'm graduate University Science and Technologi in Wroclaw, exactly field of study Electronic on Electronic faculty. My programming story started on junior high school with C++, from 2017 I interested with web development. In the future I will be Full Stack developer and that's why I sacrifice a lot of time for education."
+    const englishAbout = "My name's Patryk. I started programmig at 2012. At 2019 I started adventure with web development. I use React with others library for coding since 2020. In the future I will become Full Stack developer. My hobbies are: running, walking in the mountains and home brewing. I brewed above 50 different beer's. "
 
     const iconClassName = isDark ? index.icon__darkMode :  index.icon__lightMode;
 
