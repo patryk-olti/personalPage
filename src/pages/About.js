@@ -81,7 +81,7 @@ const About = () => {
                     > <FontAwesomeIcon icon={faFacebook} className={iconClassName} /> </a>
                 </div>
             </div>
-     
+
             <div className={index.background__text} > <span className={index.left}>  about me </span></div>
         </div>
     )

@@ -21,7 +21,9 @@ const Projects = () => {
     useEffect( () => {
         gsap.fromTo( sectionRef.current, { y: '+=100', alpha: 0}, { y: 0, alpha: 1, duration: 1.5, scrollTrigger: {
             trigger: '#projects',
-            start: 'top 40%'
+            start: 'top 40%',
+            end: 'top top',
+            scrub: 1
         }})
     }, [])
 
