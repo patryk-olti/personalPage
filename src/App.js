@@ -19,7 +19,7 @@ const App = () => {
   const mode = isDark ? "App darkMode" : "App lightMode";
 
   return (
-      <div className={ mode } >
+      <div className={mode}>
         <DivNavBar />
         <About />
         <Skills />

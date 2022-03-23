@@ -21,7 +21,7 @@ const Skills = () => {
     useEffect( () => {
         gsap.fromTo( sectionRef.current, { y: '+=100', alpha: 0}, { y: 0, alpha: 1, duration: 1.5, scrollTrigger: {
             trigger: '#skills',
-            start: 'top 40%'
+            start: 'top 40%',
         }})
     }, [])
 
