@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect, useRef } from 'react';
+
+import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 import OneProject from "../components/OneProject";
 
@@ -10,6 +13,17 @@ import imgWallet from '../img/projects/currency.png';
 import index from '../styles/index.module.css';
 
 const Projects = () => {
+
+    const sectionRef = useRef();
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    useEffect( () => {
+        gsap.fromTo( sectionRef.current, { y: '+=100', alpha: 0}, { y: 0, alpha: 1, duration: 1.5, scrollTrigger: {
+            trigger: '#projects',
+            start: 'top 40%'
+        }})
+    }, [])
 
     const listOfProjects = [
         {
@@ -52,7 +66,7 @@ const Projects = () => {
 
     return(
         <div className={index.container} id="projects">
-            <div className={index.content__flexRow}>
+            <div className={index.content__flexRow} ref={sectionRef}>
                 <OneProject dbItem={listOfProjects[0]} />
                 <OneProject dbItem={listOfProjects[1]} />
                 <OneProject dbItem={listOfProjects[2]} />

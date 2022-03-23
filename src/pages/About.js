@@ -24,7 +24,7 @@ const About = () => {
     const tl = gsap.timeline();
 
     useEffect( () => {
-        tl.fromTo( titleRef.current, { y: '+=100', alpha: 0}, { y: 0, alpha: 1, duration: 1 })
+        tl.fromTo( titleRef.current, { y: '+=100', alpha: 0}, { y: 0, alpha: 1, duration: 1, delay: 1 })
           .fromTo(  textRef.current, { y: '+=100', alpha: 0}, { y: 0, alpha: 1, duration: 1, delay: -0.5 })
           .fromTo(  imgRef.current, { y: '+=100', alpha: 0}, { y: 0, alpha: 1, duration: 1, delay: -0.5 })
           .fromTo(  instaRef.current, { alpha: 0}, { alpha: 1, duration: 0.25 })

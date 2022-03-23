@@ -1,6 +1,9 @@
-import React, { useContext } from 'react';
+import React, { useEffect, useRef, useContext } from 'react';
 
 import { AppContext } from '../AppContext';
+
+import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 import ProgressBar from '../components/ProgressBar';
 import patrykImg2 from '../img/patryk2.jpg';
@@ -11,11 +14,22 @@ import index from '../styles/index.module.css';
 
 const Skills = () => {
 
+    const sectionRef = useRef();
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    useEffect( () => {
+        gsap.fromTo( sectionRef.current, { y: '+=100', alpha: 0}, { y: 0, alpha: 1, duration: 1.5, scrollTrigger: {
+            trigger: '#skills',
+            start: 'top 40%'
+        }})
+    }, [])
+
     const { isPolish } = useContext( AppContext );
 
     return(
         <div className={index.container} id="skills">
-            <div className={index.content__flexRow}>
+            <div className={index.content__flexRow} ref={sectionRef}>
                 <div className={index.content__section}> 
                     <img src={ patrykImg2 } className={index.content__image} alt="img" /> 
                 </div>

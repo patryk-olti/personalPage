@@ -8,6 +8,7 @@
 
     min-height: 100vh;
     padding: 1rem;
+    z-index: 1;
 }
 
 .content__flexRow{
@@ -18,6 +19,7 @@
     flex-flow: row wrap;
 
     width: 100%;
+    z-index: 1;
 }
 
 .content__flexColumn{
@@ -25,6 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .content__section{
@@ -77,6 +80,7 @@
 .background__text{
     font-size: 8rem;
     color:rgba(0, 108, 180, 15%);
+    z-index: 0;
 }
 
 .left{
