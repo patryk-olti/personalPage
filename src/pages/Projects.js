@@ -9,6 +9,7 @@ import imgSyskon from '../img/projects/syskon.png';
 import imgWgory from '../img/projects/wgory.png';
 import imgAcademy from '../img/projects/akademia.png';
 import imgWallet from '../img/projects/currency.png';
+import imgPhysio from '../img/projects/physio.png';
 
 import index from '../styles/index.module.css';
 
@@ -64,6 +65,15 @@ const Projects = () => {
             ghRepo: "https://github.com/patryk-olti/nask",
             imgLink: imgWallet
         },
+        {
+            id: 5,
+            titlePL: "strona wizytówka",
+            titleENG: "landing page",
+            description: "React, GSAP",
+            ghPages: "https://patryk-olti.github.io/physiotherapistPage/",
+            ghRepo: "https://github.com/patryk-olti/physiotherapistPage",
+            imgLink: imgPhysio
+        },
     ]
 
     return(
@@ -73,6 +83,7 @@ const Projects = () => {
                 <OneProject dbItem={listOfProjects[1]} />
                 <OneProject dbItem={listOfProjects[2]} />
                 <OneProject dbItem={listOfProjects[3]} />
+                <OneProject dbItem={listOfProjects[4]} />
             </div>
 
             <div className={index.background__text} > <span className={index.right}>  projects </span></div>

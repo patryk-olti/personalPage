@@ -27,10 +27,10 @@ const About = () => {
         tl.fromTo( titleRef.current, { y: '+=100', alpha: 0}, { y: 0, alpha: 1, duration: 1, delay: 1 })
           .fromTo(  textRef.current, { y: '+=100', alpha: 0}, { y: 0, alpha: 1, duration: 1, delay: -0.5 })
           .fromTo(  imgRef.current, { y: '+=100', alpha: 0}, { y: 0, alpha: 1, duration: 1, delay: -0.5 })
-          .fromTo(  instaRef.current, { alpha: 0}, { alpha: 1, duration: 0.25 })
-          .fromTo(  ghRef.current, { alpha: 0}, { alpha: 1, duration: 0.25 })
-          .fromTo(  linkedInRed.current, { alpha: 0}, { alpha: 1, duration: 0.25 })
-          .fromTo(  fbRef.current, { alpha: 0}, { alpha: 1, duration: 0.25 })
+          .fromTo(  instaRef.current, { alpha: 0}, { alpha: 1, duration: 0.5 })
+          .fromTo(  ghRef.current, { alpha: 0}, { alpha: 1, duration: 0.5 })
+          .fromTo(  linkedInRed.current, { alpha: 0}, { alpha: 1, duration: 0.5 })
+          .fromTo(  fbRef.current, { alpha: 0}, { alpha: 1, duration: 0.5 })
     }, [])
 
     const { isPolish, isDark } = useContext( AppContext );
