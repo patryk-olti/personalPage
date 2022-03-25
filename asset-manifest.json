@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personalPage/static/css/main.97e1ee97.chunk.css",
-    "main.js": "/personalPage/static/js/main.65af4f08.chunk.js",
-    "main.js.map": "/personalPage/static/js/main.65af4f08.chunk.js.map",
+    "main.js": "/personalPage/static/js/main.108f5fbe.chunk.js",
+    "main.js.map": "/personalPage/static/js/main.108f5fbe.chunk.js.map",
     "runtime-main.js": "/personalPage/static/js/runtime-main.2acfe8f9.js",
     "runtime-main.js.map": "/personalPage/static/js/runtime-main.2acfe8f9.js.map",
     "static/js/2.c6c87d4a.chunk.js": "/personalPage/static/js/2.c6c87d4a.chunk.js",
@@ -14,6 +14,7 @@
     "static/media/currency.3147977e.png": "/personalPage/static/media/currency.3147977e.png",
     "static/media/patryk.c3bd27fd.jpg": "/personalPage/static/media/patryk.c3bd27fd.jpg",
     "static/media/patryk2.3e34d3da.jpg": "/personalPage/static/media/patryk2.3e34d3da.jpg",
+    "static/media/physio.a192c74b.png": "/personalPage/static/media/physio.a192c74b.png",
     "static/media/syskon.7071db0f.png": "/personalPage/static/media/syskon.7071db0f.png",
     "static/media/wgory.5efab833.png": "/personalPage/static/media/wgory.5efab833.png"
   },
@@ -21,6 +22,6 @@
     "static/js/runtime-main.2acfe8f9.js",
     "static/js/2.c6c87d4a.chunk.js",
     "static/css/main.97e1ee97.chunk.css",
-    "static/js/main.65af4f08.chunk.js"
+    "static/js/main.108f5fbe.chunk.js"
   ]
 }
