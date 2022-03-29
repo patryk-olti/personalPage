@@ -79,11 +79,9 @@ const Projects = () => {
     return(
         <div className={index.container} id="projects">
             <div className={index.content__flexRow} ref={sectionRef}>
-                <OneProject dbItem={listOfProjects[0]} />
-                <OneProject dbItem={listOfProjects[1]} />
-                <OneProject dbItem={listOfProjects[2]} />
-                <OneProject dbItem={listOfProjects[3]} />
-                <OneProject dbItem={listOfProjects[4]} />
+                {
+                    listOfProjects.map( elem => <OneProject key={elem.id} dbItem={elem} />)
+                }
             </div>
 
             <div className={index.background__text} > <span className={index.right}>  projects </span></div>

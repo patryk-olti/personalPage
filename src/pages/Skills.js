@@ -7,6 +7,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 import ProgressBar from '../components/ProgressBar';
 import patrykImg2 from '../img/patryk2.jpg';
+import SkillBar from '../components/SkillBar';
 
 import { faHtml5, faCss3, faJs, faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
 
@@ -39,11 +40,11 @@ const Skills = () => {
                 <div className={index.content__section}>  
                     <span className={index.titleText}>{isPolish ? 'Umiejętności' : 'Skills' }</span>
                         <div className={index.content__flexColumn}>
-                            <ProgressBar progress="90" icon={faHtml5} name='HTML5'/>
-                            <ProgressBar progress="90" icon={faCss3} name='CSS3'/>
-                            <ProgressBar progress="80" icon={faJs} name='JavaScript'/>
-                            <ProgressBar progress="80" icon={faReact} name='React'/>
-                            <ProgressBar progress="20" icon={faNodeJs} name='Node.JS'/>
+                            <SkillBar progress="90" icon={faHtml5} name='HTML5' />
+                            <SkillBar progress="90" icon={faCss3} name='CSS3' />
+                            <SkillBar progress="80" icon={faJs} name='JavaScript' />
+                            <SkillBar progress="80" icon={faReact} name='React' />
+                            <SkillBar progress="20" icon={faNodeJs} name='Node.JS' />
                     </div>
                 </div>
             </div>
