@@ -21,7 +21,8 @@ const dbEducation = [
     {
         name: 'React Developer',
         school: 'Szkoła Reacta',
-        date: '01.10.2021 - 28.01.2022'
+        date: '01.10.2021 - 28.01.2022',
+        link: 'https://szkolareacta.pl'
     },
 ]
 
@@ -62,6 +63,8 @@ const Education = () => {
                 <div> <span className="largeText">{dbEducation[3].name} </span></div>
                 <div> <span className="normalText">{dbEducation[3].school} </span></div>
                 <div> <span className="smallText">{dbEducation[3].date} </span></div>
+                <div> <span className="smallText"> <a href={dbEducation[3].link}>{dbEducation[3].link}</a> </span></div>
+                
                 </div>
                 
             </div>
