@@ -36,10 +36,10 @@ const About = () => {
     const { isPolish, isDark } = useContext( AppContext );
 
     const polishTitle = "Cześć";
-    const polishAbout = "Nazywam się Patryk. Od 2012 roku programuję. W 2019 roku rozpocząłem przygodę z technologiami webowymi. Do pisania stron wykorzystuję bibliotekę React wraz z innymi bibliotekami. W przyszłości chciałbym być full stack developerem. Moje zainteresowania to bieganie, chodzenie po górach i piwowarstwo domowe. Uwarzyłem już ponad 50 różnych warek."
+    const polishAbout = "Nazywam się Patryk. Od 2012 roku zajmuje się programowaniem. W 2019 roku rozpocząłem przygodę z technologiami webowymi. Aktualnie wykorzystuję bibliotekę React wraz z innymi bibliotekami. Dążę do zdobycia większego doświadczenia zawodowego. Docelowo chciałbym zostać Full Stack Developerem. Interesuję się wędrówka górską oraz bieganiem. Zajmuję się także piwowarstwem domowym. Dotychczas uwarzyłem ponad 50 różnych warek."
 
     const englishTitle = "Hello";
-    const englishAbout = "My name's Patryk. I started programmig at 2012. At 2019 I started adventure with web development. I use React with others library for coding since 2020. In the future I will become Full Stack developer. My hobbies are: running, walking in the mountains and home brewing. I brewed above 50 different beer's. "
+    const englishAbout = "My name's Patryk. I started programmig at 2012. At 2019 I started adventure with web development. Actually I use React with others library for coding since 2020. In the future I will become Full Stack developer. My hobbies are: walking in the mountains, running. Additionally I'm home brewer and I brewed above 50 different beer's. "
 
     const iconClassName = isDark ? index.icon__darkMode :  index.icon__lightMode;
 
