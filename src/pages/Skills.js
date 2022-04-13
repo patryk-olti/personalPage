@@ -9,7 +9,7 @@ import ProgressBar from '../components/ProgressBar';
 import patrykImg2 from '../img/patryk2.jpg';
 import SkillBar from '../components/SkillBar';
 
-import { faHtml5, faCss3, faJs, faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faCss3, faJs, faReact, faNodeJs, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import index from '../styles/index.module.css';
 
@@ -45,6 +45,7 @@ const Skills = () => {
                             <SkillBar progress="80" icon={faJs} name='JavaScript' />
                             <SkillBar progress="80" icon={faReact} name='React' />
                             <SkillBar progress="20" icon={faNodeJs} name='Node.JS' />
+                            <SkillBar progress="40" icon={faGithub} name='Git' />
                     </div>
                 </div>
             </div>
