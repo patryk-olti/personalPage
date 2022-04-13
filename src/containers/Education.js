@@ -21,8 +21,15 @@ const dbEducation = [
     {
         name: 'React Developer',
         school: 'Szkoła Reacta',
-        date: '01.10.2021 - 28.01.2022'
+        date: '01.10.2021 - 28.01.2022',
+        link: 'https://szkolareacta.pl'
     },
+    {
+        name: 'Kursant gita',
+        school: 'Kurs Gita',
+        date: '10.04.2022 - ??.??.2022',
+        link: 'https://kursgita.pl/'
+    }
 ]
 
 const Education = () => {
@@ -39,9 +46,17 @@ const Education = () => {
                 
                 <div className="tile text"></div>
                 <div className="tile text">
-                <div> <span className="largeText">{dbEducation[2].name} </span></div>
-                <div> <span className="normalText">{dbEducation[2].school} </span></div>
-                <div> <span className="smallText">{dbEducation[2].date} </span></div>
+                    <div> <span className="largeText">{dbEducation[2].name} </span></div>
+                    <div> <span className="normalText">{dbEducation[2].school} </span></div>
+                    <div> <span className="smallText">{dbEducation[2].date} </span></div>
+                </div>
+
+                <div className="tile text"></div>
+                <div className="tile text">
+                    <div> <span className="largeText">{dbEducation[4].name} </span></div>
+                    <div> <span className="normalText">{dbEducation[4].school} </span></div>
+                    <div> <span className="smallText">{dbEducation[4].date} </span></div>
+                    <div> <span className="smallText"> <a href={dbEducation[4].link}>{dbEducation[4].link}</a> </span></div>
                 </div>
             </div>
 
@@ -62,6 +77,8 @@ const Education = () => {
                 <div> <span className="largeText">{dbEducation[3].name} </span></div>
                 <div> <span className="normalText">{dbEducation[3].school} </span></div>
                 <div> <span className="smallText">{dbEducation[3].date} </span></div>
+                <div> <span className="smallText"> <a href={dbEducation[3].link}>{dbEducation[3].link}</a> </span></div>
+                
                 </div>
                 
             </div>
